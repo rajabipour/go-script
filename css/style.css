@@ -1,0 +1,241 @@
+@import 'animate.css';
+@font-face {
+    font-family: is-b;
+    src: url(/fonts/IRANSANS_BOLD.TTF);
+}
+@font-face {
+    font-family: is;
+    src: url(/fonts/IRANSANS.TTF);
+}
+@font-face {
+    font-family: ye-b;
+    src: url(/fonts/IRANYEKANEXTRABOLD.TTF);
+}
+@font-face {
+    font-family: ye-m;
+    src: url(/fonts/IRANYEKANMEDIUM.TTF);
+}
+@font-face {
+    font-family: v-b;
+    src: url(/fonts/VAZIR\ BOLD.TTF);
+}
+@font-face {
+    font-family:v-m;
+    src: url(/fonts/VAZIR-MEDIUM.TTF);
+}
+@font-face {
+    font-family:sa;
+    src: url(/fonts/SAMIM.TTF);
+}
+
+body {
+	background: linear-gradient(-45deg, #FFBA08, #e73c7e, #a327b3, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+.h1-lo{
+    padding-right: 10px;
+    text-align: right;
+    background-color: #FAA307;
+    font-family: 'ye-b';
+    font-size:17px;
+    border-radius: 4px;
+}
+.h3-lo{
+    text-align: center;
+    color:#3f3f3f ;
+    font-family: 'v-m';
+    font-size:medium;
+}
+.timer-cunt{ 
+    font-family: 'ye-b';
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.container-contact100 {
+    width: 100%;
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /*align-items: center;*/
+    padding: 15px;
+}
+.wrap-contact100 {
+    width: 90%;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 15px 15px 15px 15px;
+}
+.redirectpage {
+    margin: 10px auto;
+    border: 1px solid #ffffff;
+    border-radius: 15px;
+    padding: 15px;
+    text-align: center;
+    background: #fff;
+    box-shadow: 0px 0px 22px -10px black;
+}
+.ads-top-img-size{
+    width: 100%;
+    border-radius: 4px;
+    padding-bottom: 3px; 
+}
+.ads-top-row1{
+position: relative;
+right: 10px;
+width: 102%;
+}
+.ads-3{
+    width: 90%;
+}
+.row-re{
+ padding: 10px;
+}
+.pic-box{
+width: 80%;
+position: relative;
+}
+.pic-box img{
+    width: 100%;
+}
+.pic-box p{
+position: absolute;
+top: 0px;
+right: 4%;
+background-color:rgb(255, 255, 255);
+border-radius: 0px 10px 0px 5px;
+}
+.item {
+    position: relative;
+    top: -80px;
+}
+
+.item h2 {
+    text-align:center;
+    position: relative;
+    top: 120px;
+}
+.item p {
+    text-align: center;
+    font-family: 'is-b';
+    position: relative;
+    top: 120px;
+}
+svg {
+   -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+
+.circle_animation {
+  stroke-dasharray: 440; /* this value is the pixel circumference of the circle */
+  stroke-dashoffset: 440;
+  transition: all 1s linear;
+}
+.circle_animation{
+    r: 70;
+    cy: 81;
+    cx: 81;
+    stroke-width: 8;
+    stroke: #FAA307;
+    fill: none;
+}
+img{
+    border-radius: 10px;
+}
+.img:hover{
+    opacity: 0.5;
+}
+.img-ads-top{
+    padding-top: 5px;
+    padding-bottom: 2px;
+    border-radius: 12px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 18px -10px black;
+}
+.btn-load{
+font-family: 'ye-b';
+color: #2d2d2d;
+}
+.coler-5{
+    color: #FAA307;
+    border: #2d2d2d;
+}
+.mini-tab{
+    font-family: 'is';
+    color: #202020;
+    font-weight: bold;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+.mini-tab:hover{
+    background-color: #f3f3f3;
+    transition: all 0.2s ease-in-out;
+}
+.footer{
+    text-align: center;
+    position: relative;
+    bottom: -32px;
+    
+}
+.footer-text{
+    font-family: 'v-b';
+    margin-bottom: 20px;
+    margin-top: 3%;
+}
+.footer-mini-text{
+    color: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+.pic-bot{
+    width: 100%;
+}
+.box-bot{
+    background-color: #ffffff;
+    padding: 5px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 18px -10px black;
+    margin-bottom: -50px;
+}
+.tpo-top{
+    position: relative;
+    top:-50px;
+}
+.h2-timer{
+    font-family: 'sa';
+}.text-ads{
+    font-family: 'sa';
+}
+.popup{
+    position: fixed;
+    right: 0px;
+    bottom: 5px;
+}
+.img-popup{
+    width: 150px;
+    border-radius: 5px;
+}
+.btn-closee{
+    background-color: #FFBA08;
+}
+.btn-closee:hover{
+    transition: all 0.1s ease-in-out;
+    background-color: #fefe00;
+}
